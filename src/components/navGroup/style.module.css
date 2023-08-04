@@ -1,0 +1,32 @@
+.nav__group{
+    padding: 25px;
+    border-radius: 30px;
+    border: 1px solid rgba(8, 8, 8, 0.15);
+    margin-block-end: 150px;
+}
+.grid__group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.btn{
+    padding-block: 23px;
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    border-radius: 15px;
+    background: #F7F7F7;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+}
+
+.btn:hover{
+     color: var(--white, #FFF);
+     border-radius: 15px;
+     background: var(--blue, #00C1FF);
+}

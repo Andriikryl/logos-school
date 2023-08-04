@@ -1,3 +1,4 @@
+import { NavGroup } from "@/components/navGroup";
 import { Statistic } from "@/components/statistic";
 import { Hero } from "@/sections/hero";
 import { Resons } from "@/sections/resons";
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <Statistic />
       <Resons />
+      <NavGroup />
     </>
   );
 }
