@@ -1,0 +1,31 @@
+.header{
+    padding-block: 25px;
+}
+
+.header__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+.list__item{
+    list-style: none;
+}
+
+.item__link{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    text-decoration: none;
+}

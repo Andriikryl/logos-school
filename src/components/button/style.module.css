@@ -1,0 +1,13 @@
+.button{
+    padding: 16px 25px;
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    border-radius: 15px;
+    background: var(--orange, #FF9E00);
+    border: none;
+    cursor: pointer;
+}
