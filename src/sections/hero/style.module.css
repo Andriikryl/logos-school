@@ -1,0 +1,32 @@
+.hero{
+    background: var(--blue, #00C1FF);
+    padding-block-start: 80px;
+}
+
+.hero__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero__title{
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    margin-block-end: 70px;
+    max-width: 652px;
+}
+
+.hero__description{
+    display: block;
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    margin-block-end: 85px;
+    max-width: 497px;
+}
