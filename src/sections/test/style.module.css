@@ -1,0 +1,26 @@
+.test_title{
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    max-width: 562px;
+    margin-block-end: 50px;
+}
+
+.test__container{
+    border-radius: 30px;
+    background: var(--green, #4DD252);
+}
+
+.test{
+    margin-block: 100px;
+}
+
+.test__box{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

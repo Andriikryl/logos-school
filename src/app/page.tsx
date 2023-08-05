@@ -3,6 +3,7 @@ import { Statistic } from "@/components/statistic";
 import { Hero } from "@/sections/hero";
 import { Location } from "@/sections/location";
 import { Resons } from "@/sections/resons";
+import { Test } from "@/sections/test";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Resons />
       <NavGroup />
       <Location />
+      <Test />
     </>
   );
 }
