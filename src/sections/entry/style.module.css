@@ -1,0 +1,86 @@
+.entry__prev{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 492px;
+}
+
+.entry__title{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+}
+
+.entry__description{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; 
+}
+
+.entry__list{
+    counter-reset: item;
+}
+
+.list__item{
+    padding-block: 30px;
+    padding-inline: 35px;
+    border-radius: 25px;
+    outline: 1px solid rgba(8, 8, 8, 0.15);
+    max-width: 708px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.list__item::before {
+    counter-increment: item; 
+    content: '' counter(item) '.';
+    display: block;
+    width: 53px;
+    height: 53px;
+    color: var(--white, #FFF);
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 24px */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.item__title{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    margin-block-end: 10px;
+}
+.item__description{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+}
+
+.entry__box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.entry{
+    padding-block-end: 100px;
+}
