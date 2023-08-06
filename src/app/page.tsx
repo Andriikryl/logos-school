@@ -1,5 +1,6 @@
 import { NavGroup } from "@/components/navGroup";
 import { Statistic } from "@/components/statistic";
+import { Answer } from "@/sections/answer";
 import { Entry } from "@/sections/entry";
 import { Faq } from "@/sections/faq";
 import { Hero } from "@/sections/hero";
@@ -18,6 +19,7 @@ export default function Home() {
       <Test />
       <Entry />
       <Faq />
+      <Answer />
     </>
   );
 }
