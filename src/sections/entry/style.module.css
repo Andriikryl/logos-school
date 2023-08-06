@@ -25,6 +25,9 @@
 
 .entry__list{
     counter-reset: item;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .list__item{

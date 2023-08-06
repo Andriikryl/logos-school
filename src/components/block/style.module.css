@@ -1,0 +1,22 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top: 0;
+    width: 100%;
+}
+
+.inner__box{
+    height: 100dvh;
+    flex-grow: 1;
+}
+
+.inner__box:nth-last-child(1){
+    background-color: #a2d2ff;
+}
+.inner__box:nth-last-child(2){
+    background-color: #bde0fe;
+}
+.inner__box:nth-last-child(3){
+    background-color: #ffafcc;
+}

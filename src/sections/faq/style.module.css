@@ -1,0 +1,29 @@
+.faq{
+    margin-block-end: 100px;
+}
+
+.faq__container{
+    border-radius: 30px;
+    background: var(--green, #4DD252);
+}
+
+.faq__box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+}
+
+.faq__info{
+    max-width: 562px;
+}
+
+.faq__title{
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    margin-block-end: 50px;
+}
