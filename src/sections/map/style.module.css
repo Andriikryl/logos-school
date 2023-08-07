@@ -1,0 +1,16 @@
+.map{
+    margin-block: 100px;
+}
+
+.box{
+    max-width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.flex__group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

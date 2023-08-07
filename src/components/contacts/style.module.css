@@ -1,0 +1,88 @@
+.address{
+    display: block;
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; 
+    margin-block-end: 12px;
+}
+
+.fhone{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    text-decoration: none;
+}
+
+.class__number{
+    padding-inline: 25px ;
+    padding-block: 16px;
+    border-radius: 15px;
+    background: rgba(8, 8, 8, 0.03);
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+}
+
+.prive__btn{
+    width: 100%;
+    padding-block: 24px;
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    border-radius: 15px;
+    background: var(--orange, #FF9E00);
+    border: none;
+    cursor: pointer;
+}
+
+.list{
+    flex-grow: 1;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 640px;
+    border-radius: 25px;
+    border: 1px solid rgba(8, 8, 8, 0.15);
+}
+
+.list__item{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(8, 8, 8, 0.15);
+    padding-block-end: 30px;
+}
+
+
+.item__calss{
+    padding-block: 16px;
+    padding-inline: 25px;
+    display: block;
+    color: var(--white, #FFF);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    border-radius: 15px;
+    background: var(--blue, #00C1FF);
+}
+
+.flex__group{
+    display: flex;
+    justify-content: space-between;
+}
