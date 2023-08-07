@@ -6,6 +6,7 @@ import { Faq } from "@/sections/faq";
 import { Hero } from "@/sections/hero";
 import { Location } from "@/sections/location";
 import { Map } from "@/sections/map";
+import { Program } from "@/sections/progarm";
 import { Resons } from "@/sections/resons";
 import { Test } from "@/sections/test";
 
@@ -18,6 +19,7 @@ export default function Home() {
       <NavGroup />
       <Location />
       <Test />
+      <Program />
       <Entry />
       <Faq />
       <Answer />

@@ -1,0 +1,127 @@
+.program{
+    margin-block: 150px;
+}
+
+.flex__group{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-block-end: 150px;
+}
+
+.program__title{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    max-width: 632px;
+}
+
+.program__description{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    max-width: 463px;
+}
+
+.program__plan{
+    display: flex;
+    gap: 25px;
+}
+
+.box{
+    max-width: 625px;
+    padding-block: 50px;
+    padding-inline: 45px;
+    border-radius: 30px;
+    border: 1px solid rgba(8, 8, 8, 0.15);
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 535px;
+    margin-block-end: 45px;
+    counter-reset: item;
+}
+
+.item{
+    list-style: none;
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+    display: flex;
+    gap: 25px;
+}
+
+.item::before {
+    counter-increment: item; 
+    content: '' counter(item) '.';
+    display: block;
+    text-align: center;
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+  }
+
+.control__group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount__list{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%; 
+}
+
+.btn{
+    width: 48px;
+    height: 48px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border-radius: 70px;
+    border: 1px solid rgba(8, 8, 8, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.plan__title{
+    color: var(--black, #080808);
+    font-family: StratosSkyeng Web;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; 
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-block-end: 45px;
+}
+
+.plan__title::before{
+    display: block;
+    content: "";
+    background-image: url("/program/Lightning.svg");
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
